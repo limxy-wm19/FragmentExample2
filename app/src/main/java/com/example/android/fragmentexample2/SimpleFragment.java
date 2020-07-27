@@ -32,7 +32,7 @@ public class SimpleFragment extends Fragment {
                 inflater.inflate(R.layout.fragment_simple, container, false);
         final RadioGroup radioGroup = rootView.findViewById(R.id.radio_group);
 
-        // TODO: Set the radioGroup onCheckedChanged listener.
+
         radioGroup.setOnCheckedChangeListener(new
           RadioGroup.OnCheckedChangeListener() {
               @Override
